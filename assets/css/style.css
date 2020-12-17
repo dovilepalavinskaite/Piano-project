@@ -1,0 +1,77 @@
+body {
+padding: 10px;
+}
+
+.heading-section {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-top: 30px;
+	position: absolute;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 62px;
+	letter-spacing:0.1em;
+ 	-webkit-text-fill-color: transparent;
+  	text-shadow: 
+			15px 15px #218a3f,
+			18px 18px #000000;
+}
+
+h4 {
+	position: absolute;
+    bottom: 9px;
+    left: 8px;
+}
+
+h5 {
+	position: absolute;
+	bottom: 9px;
+	left: 5px;
+	font-size: 8px;
+	color: #fff;
+}
+
+.piano {
+	padding: 100px 100px;
+	display: flex;
+	cursor: pointer;
+}
+
+.piano-key-white {
+	width: 50px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 0 0 10px 10px;
+	-webkit-box-shadow: -1px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 10px 8px 0px rgba(0,0,0,0.75);
+	position: relative;
+}
+
+.piano-key-black {
+	width: 25px;
+	height: 120px;
+	background-color: black;
+	position: absolute;
+	right: -14px;
+	top: -1px;
+	z-index: 10;
+	-webkit-box-shadow: -1px 10px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 10px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 10px 8px 0px rgba(0,0,0,0.75);
+}
+
+.white-piano-key-played {
+	height: 197px;
+	-webkit-box-shadow: -1px 8px 8px 0px rgba(0,0,0,0.75);
+}
+
+.black-piano-key-played {
+	height: 118px;
+	-webkit-box-shadow: -1px 8px 8px 0px rgba(0,0,0,0.75);
+}
+
