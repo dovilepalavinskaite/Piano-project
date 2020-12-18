@@ -9,11 +9,11 @@ padding: 10px;
 
 h1 {
 	text-transform: uppercase;
-	margin-top: 30px;
+	margin-top: 64px;
 	position: absolute;
  	left: 50%;
   	transform: translate(-50%, -50%);
-  	font-size: 62px;
+  	font-size: 98px;
 	letter-spacing:0.1em;
  	-webkit-text-fill-color: transparent;
   	text-shadow: 
@@ -36,14 +36,14 @@ h5 {
 }
 
 .piano {
-	padding: 100px 100px;
+	padding: 222px 177px;
 	display: flex;
 	cursor: pointer;
 }
 
 .piano-key-white {
-	width: 50px;
-	height: 200px;
+	width: 52px;
+	height: 250px;
 	border: 1px solid black;
 	border-radius: 0 0 10px 10px;
 	-webkit-box-shadow: -1px 10px 8px 0px rgba(0,0,0,0.75);
@@ -53,8 +53,8 @@ h5 {
 }
 
 .piano-key-black {
-	width: 25px;
-	height: 120px;
+	width: 27px;
+	height: 167px;
 	background-color: black;
 	position: absolute;
 	right: -14px;
@@ -66,12 +66,12 @@ h5 {
 }
 
 .white-piano-key-played {
-	height: 197px;
+	height: 243px;
 	-webkit-box-shadow: -1px 8px 8px 0px rgba(0,0,0,0.75);
 }
 
 .black-piano-key-played {
-	height: 118px;
+	height: 160px;
 	-webkit-box-shadow: -1px 8px 8px 0px rgba(0,0,0,0.75);
 }
 
